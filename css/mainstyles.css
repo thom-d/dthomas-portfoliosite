@@ -1,0 +1,172 @@
+/* General Styles */
+
+/* COLOR CODES
+   white - #fff
+   nantucket red - #922
+   senate blue - #023
+   mist gray - #bbb
+   pinstripe gray - #404040
+*/
+
+body {
+  color: #222;
+  font-size: 1em;
+  font-family: 'Old Standard TT', Helvetica, serif;
+  margin: 0 auto;
+}
+
+.intro > p,
+.location > p,
+.footer > p {
+  /* Typography Declarations */
+  font-weight: 400;
+  letter-spacing: 0.06em;  
+}
+
+/* Main Styles */
+
+.mast-head,
+.mast-intro, 
+.footer {
+  text-align: center; 
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image:  
+ url(http://i.imgur.com/HQxhn63.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: #922 solid 1em;
+  border-bottom: #bbb solid 0.2em;
+}
+
+.mast-intro {
+  margin-bottom: 0.1em;
+  color: #fff;
+  font-family: 'Old Standard TT', Helvetica, serif;
+  font-size: 2em;
+  margin-bottom: -0.4em;
+}
+
+.mast-head {
+  margin-bottom: -0.2em;
+  color: #023;
+  font-family: 'Old Standard TT', Helvetica, serif;
+  font-size: 9em;
+  font-weight: 700;
+  line-height: 0.01em;
+  text-transform: uppercase;
+  padding: 0 0 0.8em 0;
+  margin-top: 0.09;
+}
+
+.questions > h2 {
+  /* Typography Declarations */
+  font-family: 'Old Standard TT', Helvetica, serif;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+section > h1 {
+  margin-top: 3em;
+}
+
+/* Section Styles */
+
+.intro,
+.location,
+.questions {
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3em;
+}
+
+/* Footer */
+
+.social > li {
+  display: inline-block;
+  margin: 0 1em 0 auto;
+  text-align: justify;
+}
+
+.footer {
+  margin-top: 5em;
+}
+
+/* COLOR STYLES */
+
+/* COLOR CODES
+   white - #fff
+   nantucket red - #922
+   senate blue - #023
+   mist gray - #bbb
+   pinstripe gray - #404040
+*/
+
+.mast-intro {
+  text-shadow: 1px 3px 3px #023;
+}
+
+.mast-head {
+  text-shadow: 0 2px 1px #922;
+}
+
+.intro,
+.location,
+.questions > p {
+  color: #bbb;
+}
+
+section > h1 {
+  color: #404040;
+}
+
+.footer {
+  background: #023;
+  padding: 3em;
+}
+
+a {
+  color: #922;
+  text-decoration: none;
+}
+
+.footer > p {
+  color: #fff;
+}
+
+@media only screen and (max-width: 500px) {
+   .masthead {
+        padding: 3em 0;
+  }
+   .mast-head {
+        font-size: 3em;
+      
+  }
+  
+  .intro,
+  .location,
+  .questions {
+    padding: 0 2em;
+    margin-top: -2em;
+    margin-bottom: 0;
+  }
+  
+   .footer {
+    text-align: center;
+  }
+  
+   .social li {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
