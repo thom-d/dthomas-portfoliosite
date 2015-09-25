@@ -1,4 +1,4 @@
-/* General Styles */
+/************** General Styles **************/
 
 /* COLOR CODES
    white - #fff
@@ -23,7 +23,7 @@ body {
   letter-spacing: 0.06em;  
 }
 
-/* Main Styles */
+/************** Main Styles **************/
 
 .mast-head,
 .mast-intro, 
@@ -34,7 +34,7 @@ body {
 .masthead {
   padding: 6em 0;
   background-image:  
- url(http://i.imgur.com/HQxhn63.jpg);
+  url(http://i.imgur.com/HQxhn63.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   border-top: #922 solid 1em;
@@ -61,6 +61,16 @@ body {
   margin-top: 0.09;
 }
 
+.title {
+  margin-top: 0;
+
+}
+
+.about_container {
+  margin: 0 auto;
+  padding: 0 0 0 0;
+}
+
 .questions > h2 {
   /* Typography Declarations */
   font-family: 'Old Standard TT', Helvetica, serif;
@@ -69,7 +79,7 @@ body {
 }
 
 section > h1 {
-  margin-top: 3em;
+  margin-top: 1.8em;
 }
 
 /************* NAVIGATION BAR *************/
@@ -92,15 +102,20 @@ section > h1 {
 }
 
 
-/* Section Styles */
+/************** Section Styles **************/
+
+.about_container {
+  text-align: center;
+}
 
 .intro,
 .location,
 .questions {
-  max-width: 38em;
+  max-width: 50em;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3em;
+  margin-top: 0;
+  padding: 0;
 }
 
 /* Footer */
@@ -112,7 +127,7 @@ section > h1 {
 }
 
 .footer {
-  margin-top: 5em;
+  margin-top: 2em;
 }
 
 /************************** COLOR and FONT STYLES **************************/
@@ -134,10 +149,6 @@ section > h1 {
 }
 
 /************* NAVIGATION BAR *************/
-
-.nav_content {
-
-}
 
 .page_links {
   font-family: 'Old Standard TT', Helvetica, serif;
@@ -168,6 +179,7 @@ a:hover {
 
 section > h1 {
   color: #404040;
+  text-align: center;
 }
 
 .footer {
