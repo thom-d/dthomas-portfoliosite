@@ -72,6 +72,26 @@ section > h1 {
   margin-top: 3em;
 }
 
+/************* NAVIGATION BAR *************/
+
+.nav_content {
+  background: #F2F2F2; 
+  outline: 1px solid #bbb;
+  margin-top: 2em;
+}
+
+.page_links {
+  text-align: center;
+  list-style: none;
+  padding: 15px;
+}
+
+.page_links li {
+  display: inline-block;
+  margin-left: 1em;
+}
+
+
 /* Section Styles */
 
 .intro,
@@ -95,7 +115,7 @@ section > h1 {
   margin-top: 5em;
 }
 
-/* COLOR STYLES */
+/************************** COLOR and FONT STYLES **************************/
 
 /* COLOR CODES
    white - #fff
@@ -111,6 +131,33 @@ section > h1 {
 
 .mast-head {
   text-shadow: 0 2px 1px #922;
+}
+
+/************* NAVIGATION BAR *************/
+
+.nav_content {
+
+}
+
+.page_links {
+  font-family: 'Old Standard TT', Helvetica, serif;
+  font-size: 1.1em;
+  font-weight: 400;
+  /*letter-spacing: 0.06em;*/ 
+}
+
+.page_links a {
+  color: #bbb;
+}
+
+.page_links .active a {
+  color: #922;
+  font-weight: 700;
+}
+
+a:hover {
+  color: #922;
+  font-weight: 700;
 }
 
 .intro,
@@ -136,6 +183,8 @@ a {
 .footer > p {
   color: #fff;
 }
+
+/************* MEDIA QUERIES *************/
 
 @media only screen and (max-width: 500px) {
    .masthead {
