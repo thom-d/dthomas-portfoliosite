@@ -77,21 +77,15 @@ body {
 /*  ABOUT ME Q & A SECTIONS  */
 
 .about_container {
-  margin: 0 auto;
+  margin-top: 3em;
   padding: 0 0 0 0;
 }
 
-
-.intro,
+/*.intro,
 .location,
 .questions > h1 {
   margin-top: 1.8em;
-}
-
-
-.about_container {
-  text-align: left;
-}
+}*/
 
 .intro,
 .location,
@@ -121,7 +115,8 @@ hr {
 }
 
 .bottom_text {
-  margin-top: 2em;
+  margin-top: 3em;
+  padding: 1em;
 }
 
 /*********************************** COLOR, FONT and ALIGNMENT STYLES ***********************************/
@@ -132,6 +127,7 @@ hr {
    senate blue - #023
    mist gray - #bbb
    pinstripe gray - #404040
+   powder gray - #F2F2F2
 */
 
  /*  HEADER ELEMENT  */
@@ -181,11 +177,10 @@ a:hover {
   text-align: left;
 }
 
-.intro
-.location > h1 {
+.intro, 
+.location, h1 {
   color: #bbb;
-  text-align: center;
-  font-family: 'Old Standard TT', Helvetica, serif;
+  font-family: 'Muli','Old Standard TT', Helvetica, serif;
   font-weight: 400;
 }
 
@@ -201,8 +196,9 @@ a:hover {
 
 .questions > h2 {
   /* Typography Declarations */
+  color: #bbb;
   font-size: 1.3em;
-  font-family: 'Old Standard TT', Helvetica, serif;
+  font-family: 'Muli', 'Old Standard TT', Helvetica, serif;
   font-weight: 400;
 }
 
