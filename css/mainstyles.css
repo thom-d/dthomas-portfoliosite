@@ -1,4 +1,4 @@
-/*********************************** General Styles ***********************************/
+/*********************************** GENERAL BODY STYLING ***********************************/
 
 /* COLOR CODES
    white - #fff
@@ -15,27 +15,12 @@ body {
   margin: 0 auto;
 }
 
-.intro > p,
-.location > p,
-.footer > p {
-  /* Typography Declarations */
-  font-family: 'Muli','Helvetica', sans-serif;
-  font-weight: 300;
-  letter-spacing: 0.06em;  
-}
 
+/*********************************** MAIN STRUCTURAL STYLES ***********************************/
 
-/*********************************** Main Styles ***********************************/
+ /*  HEADER PAGE ELEMENTS  */
 
- /*  HEADER ELEMENT  */
-
-.mast-head,
-.mast-intro, 
-.footer {
-  text-align: center; 
-}
-
-.masthead {
+.title_banner {
   padding: 6em 0;
   background-image:  
   url(http://i.imgur.com/HQxhn63.jpg);
@@ -45,19 +30,23 @@ body {
   border-bottom: #bbb solid 0.2em;
 }
 
-.mast-intro {
+.title_text {
   margin-bottom: 0.1em;
   color: #fff;
   font-family: 'Old Standard TT', Helvetica, serif;
-  font-size: 2em;
+  font-size: 1.8em;
   margin-bottom: -0.4em;
 }
 
-.mast-head {
+.job_title {
+  margin-top: 0;
+}
+
+.name_text {
   margin-bottom: -0.2em;
   color: #023;
   font-family: 'Old Standard TT', Helvetica, serif;
-  font-size: 9em;
+  font-size: 6em;
   font-weight: 700;
   line-height: 0.01em;
   text-transform: uppercase;
@@ -65,12 +54,8 @@ body {
   margin-top: 0.09;
 }
 
-.title {
-  margin-top: 0;
 
-}
-
-/* NAVIGATION BAR AND PAGE LINK ELEMENTS */
+/*  NAVIGATION BAR AND PAGE LINK ELEMENTS  */
 
 .nav_content {
   background: #F2F2F2; 
@@ -96,14 +81,10 @@ body {
   padding: 0 0 0 0;
 }
 
-.questions > h2 {
-  /* Typography Declarations */
-  font-size: 1.3em;
-  font-family: 'Old Standard TT', Helvetica, serif;
-  font-weight: 400;
-}
 
-section > h1 {
+.intro,
+.location,
+.questions > h1 {
   margin-top: 1.8em;
 }
 
@@ -128,10 +109,10 @@ section > h1 {
 
 
 hr {
-  width: 38em;    /* ABOUT ME - PROJECT SEPARATION */
+  width: 38em;    /*  ABOUT ME - PROJECT SEPARATION  */
 }
 
-/* Footer */
+/*  FOOTER PAGE ELEMENTS  */
 
 .social > li {
   display: inline-block;
@@ -139,7 +120,7 @@ hr {
   text-align: justify;
 }
 
-.footer {
+.bottom_text {
   margin-top: 2em;
 }
 
@@ -153,15 +134,23 @@ hr {
    pinstripe gray - #404040
 */
 
-.mast-intro {
+ /*  HEADER ELEMENT  */
+
+.name_text,
+.title_text, 
+.bottom_text {
+  text-align: center; 
+}
+
+.title_text {
   text-shadow: 1px 3px 3px #023;
 }
 
-.mast-head {
+.name_text {
   text-shadow: 0 2px 1px #922;
 }
 
-/************* NAVIGATION BAR *************/
+/*  NAVIGATION BAR AND PAGE LINK ELEMENTS  */
 
 .page_links {
   font-size: 1.1em;
@@ -186,20 +175,41 @@ a:hover {
   font-weight: 700;
 }
 
-.intro,
-.location,
-.questions > p {
-  color: #868686;
+/*  ABOUT ME Q & A SECTIONS  */
+
+.about_container {
+  text-align: left;
 }
 
-section > h1 {
+.intro
+.location > h1 {
   color: #bbb;
   text-align: center;
   font-family: 'Old Standard TT', Helvetica, serif;
   font-weight: 400;
 }
 
-.footer {
+.intro,
+.location,
+.questions > p {
+  color: #868686;
+  /* Typography Declarations */
+  font-family: 'Muli','Helvetica', sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.06em;  
+}
+
+.questions > h2 {
+  /* Typography Declarations */
+  font-size: 1.3em;
+  font-family: 'Old Standard TT', Helvetica, serif;
+  font-weight: 400;
+}
+
+
+/*  FOOTER PAGE ELEMENTS  */
+
+.bottom_text {
   background: #023;
   padding: 3em;
 }
@@ -209,17 +219,17 @@ a {
   text-decoration: none;
 }
 
-.footer > p {
+.bottom_text > p {
   color: #fff;
 }
 
 /*********************************** MEDIA QUERIES ***********************************/
 
 @media only screen and (max-width: 500px) {
-   .masthead {
+   .title_banner {
         padding: 3em 0;
   }
-   .mast-head {
+   .name_text {
         font-size: 3em;
       
   }
@@ -232,7 +242,7 @@ a {
     margin-bottom: 0;
   }
   
-   .footer {
+   .bottom_text {
     text-align: center;
   }
   
