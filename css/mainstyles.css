@@ -15,6 +15,10 @@ body {
   margin: 0 auto;
 }
 
+#backToTop {
+  text-align: center;
+}
+
 
 /*********************************** MAIN STRUCTURAL STYLES ***********************************/
 
@@ -203,6 +207,12 @@ a:hover {
 }
 
 
+#linkToTop {
+  text-align: center;
+  width: 20em;
+}
+
+
 /*  FOOTER PAGE ELEMENTS  */
 
 .bottom_text {
@@ -218,6 +228,31 @@ a {
 .bottom_text > p {
   color: #fff;
 }
+
+/*  ABOUT ME PAGE  */
+
+.contact_section {
+  margin: 5em auto;
+  max-width: 45em;
+}
+
+.contact_links {
+  text-align: center;
+}
+
+.social_contact {
+  text-align: center;
+  list-style: none;
+}
+
+.contact_section,
+.contact_links,
+.social_contact {
+  padding: 0;
+}
+
+
+
 
 /*********************************** MEDIA QUERIES ***********************************/
 
