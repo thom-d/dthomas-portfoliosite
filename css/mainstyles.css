@@ -15,9 +15,6 @@ body {
   margin: 0 auto;
 }
 
-#backToTop {
-  text-align: center;
-}
 
 
 /*********************************** MAIN STRUCTURAL STYLES ***********************************/
@@ -82,7 +79,7 @@ body {
 
 .about_container {
   margin-top: 3em;
-  padding: 0 0 0 0;
+  padding: 0 0 2em 0;
 }
 
 /*.intro,
@@ -109,6 +106,31 @@ body {
 hr {
   width: 38em;    /*  ABOUT ME - PROJECT SEPARATION  */
 }
+
+/*  PROJECT SECTION ELEMENTS  */
+
+.project {
+  margin: 0 auto;
+  padding: 2em 0;
+}
+
+.sample_work {
+  padding-left: 10em;
+}
+
+.sample_work ul > li {
+  max-width: 50em;
+  display: inline-block;
+  list-style: none;
+  padding-right: 1em;
+  position: relative;
+}
+
+.sample_work ul li > p {
+  text-align: center;
+}
+
+
 
 /*  FOOTER PAGE ELEMENTS  */
 
@@ -257,11 +279,11 @@ a {
 /*********************************** MEDIA QUERIES ***********************************/
 
 @media only screen and (max-width: 500px) {
-   .title_banner {
-        padding: 3em 0;
+  .title_banner {
+    padding: 3em 0;
   }
-   .name_text {
-        font-size: 3em;
+  .name_text {
+    font-size: 3em;
       
   }
   
@@ -273,11 +295,11 @@ a {
     margin-bottom: 0;
   }
   
-   .bottom_text {
+  .bottom_text {
     text-align: center;
   }
   
-   .social li {
+  .social li {
     display: block;
     text-align: center;
   }
