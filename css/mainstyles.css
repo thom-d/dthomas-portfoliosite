@@ -115,7 +115,7 @@ hr {
 }
 
 .sample_work {
-  padding-left: 10em;
+  padding-left: 11em;
 }
 
 .sample_work ul > li {
@@ -126,7 +126,12 @@ hr {
   position: relative;
 }
 
+.sample_work ul li a > img {
+  outline: 1px solid #bbb;
+}
+
 .sample_work ul li > p {
+  color: #404040;
   text-align: center;
 }
 
