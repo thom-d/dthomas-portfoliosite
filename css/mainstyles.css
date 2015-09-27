@@ -181,8 +181,6 @@ hr {
 
 .page_links {
   font-size: 1.1em;
-  /*font-family: 'Muli','Helvetica', sans-serif;
-  font-weight: 400;*/
   font-family: 'Old Standard TT', Helvetica, serif;
   font-weight: 400;
   /*letter-spacing: 0.06em;*/ 
@@ -287,17 +285,86 @@ a {
   .title_banner {
     padding: 3em 0;
   }
+
+  .title_text {
+    font-size: 1em;
+  }
   .name_text {
-    font-size: 3em;
+    font-size: 2em;
       
   }
-  
+
+  .nav_content {
+    background: none; 
+    outline: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 25em;
+    padding: 0 0.2em;
+}
+
+  .page_links li {
+    font-size: 0.8em;
+    background: #F2F2F2;
+    border-radius: 5%;
+    padding: 10px;
+    margin-left: 0.5em;
+  }
+
+  .about_container {
+    margin-top: 0;
+    padding: 0 0 1em 0;
+  }
+
   .intro,
   .location,
   .questions {
-    padding: 0 2em;
-    margin-top: -2em;
-    margin-bottom: 0;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 0 3em;
+  }
+
+  .intro > h1
+  .location > h1 {
+    font-size: 1em;
+  }
+
+  .intro,
+  .location, 
+  .questions > p {
+    text-align: left;
+  }
+
+  hr {
+    max-width: 20em;
+  }
+
+  .project {
+    margin: 0 auto;
+    padding: 2em 0;
+  }
+
+  .sample_work {
+    padding: 0;
+  }
+
+  .sample_work ul > li {
+    max-width: 20em;
+    display: block;
+    list-style: none;
+    text-align: center;
+  }
+
+.sample_work ul li a > img {
+    outline: 1px solid #bbb;
+    width: 90%;
+  }
+
+  .sample_work ul li > p {
+    color: #404040;
+    text-align: center;
   }
   
   .bottom_text {
